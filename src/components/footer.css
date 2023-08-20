@@ -1,0 +1,14 @@
+.footer-section {
+display: flex;
+align-items: center;
+justify-content: center;
+background-color: rgb(0, 33, 65);
+height: 80px;
+
+}
+
+.footer-text {
+
+color: aliceblue;
+
+}

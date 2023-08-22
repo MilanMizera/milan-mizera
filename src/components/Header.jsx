@@ -21,7 +21,7 @@ const Header = () => {
   return (
     <nav className="nav">
       <a href="#" className="nav__brand">
-      &lt;Milan-Mizera/&gt;
+        &lt;Milan-Mizera/&gt;
       </a>
       <ul className={active}>
         <li className="nav__item">

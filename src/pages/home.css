@@ -1,3 +1,5 @@
+/*welcome section*/
+
 .welcome-section-row {
 
   display: flex;
@@ -5,7 +7,7 @@
   align-items: center;
   justify-content: space-evenly;
   padding-top: 100px;
-  background: linear-gradient(0deg, rgba(255, 255, 255, 0.856), rgba(255, 255, 255, 0.6)), url(../images/Korunky-kontakt-section-pozadi.png);
+  background: linear-gradient(0deg, rgba(255, 255, 255, 0.656), rgba(255, 255, 255, 0.4)), url(../images/Korunky-kontakt-section-pozadi.png);
   background-repeat: repeat;
   background-size: contain;
 
@@ -41,11 +43,55 @@
 
 
   font-size: 60px;
-  color: rgb(251, 255, 18);
+  color: rgb(254, 255, 170);
   background-color: rgb(0, 0, 0);
   margin-top: 20px;
   border-radius: 10px;
 }
+
+/*with i work it*/
+
+.with-i-work-icons-section {
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(0, 33, 65);
+  height: 200px;
+
+}
+
+.with-i-work-text {
+  color: aliceblue;
+}
+
+.col-with-i-work-text {
+
+  display: flex;
+  width: 40%;
+  justify-content: end;
+  margin-right: 50px;
+  text-decoration: underline green;
+}
+
+.col-with-i-work-icons {
+
+  display: flex;
+  flex-direction: row;
+  width: 60%;
+
+}
+
+.icon-1 {
+
+  font-size: 60px;
+  color: rgb(243, 255, 199);
+  background-color: rgb(0, 0, 0);
+  margin-top: 20px;
+  border-radius: 10px;
+  margin-right: 50px;
+}
+
 
 
 /*keyframes*/

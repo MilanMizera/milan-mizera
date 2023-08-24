@@ -5,6 +5,13 @@ import mainImg from "../images/main-photo.jpg"
 import { FaGitSquare, FaReact, FaNpm } from "react-icons/fa";
 import { BsGithub, BsFiletypeHtml, BsFiletypeCss } from "react-icons/bs";
 import { DiCode } from "react-icons/di";
+/*high lighter*/
+import SyntaxHighlighter from 'react-syntax-highlighter';
+import { docco } from 'react-syntax-highlighter/dist/esm/styles/hljs';
+/*high lighter my own file*/
+import { codeString } from "./data/ShowFirstProject";
+
+
 
 
 export const Home = () => {
@@ -18,7 +25,7 @@ export const Home = () => {
         <div className="col-main-title">
           <h1>Dobrý den, jsem juniorní vývojař v JS</h1>
           <p>Programování se věnuji již dva roky</p>
-          <div>    <DiCode className="js-icon" ></DiCode></div>
+          <div><DiCode className="js-icon" ></DiCode></div>
 
         </div>
 
@@ -45,16 +52,18 @@ export const Home = () => {
       </div>
 
       <div className="my-work-section">
-        <div className="col-my-work-iframe"></div>
-        <iframe src="https://moje-ukoly.netlify.app/"></iframe>
+        <div className="col-my-work-iframe">
+          <iframe className="my-iframe" src="https://moje-ukoly.netlify.app/"></iframe>
+        </div>
+        <div className="col-my-work-src-code">
+
+          <SyntaxHighlighter className="my-first-poroject"  language="javascript" style={docco}>
+            {codeString}
+          </SyntaxHighlighter>
+
+        </div>
+
       </div>
-
-      <div className="col-my-work-src-code">
-
-
-      </div>
-
-
 
     </div>
   )

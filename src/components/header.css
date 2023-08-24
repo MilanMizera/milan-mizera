@@ -22,6 +22,12 @@ a {
   color: rgb(204, 204, 204);
 }
 
+.nav__link {
+
+  cursor: pointer;
+
+}
+
 .nav {
   display: flex;
   align-items: center;

@@ -92,6 +92,40 @@
   margin-right: 50px;
 }
 
+/*my work section*/
+.my-work-section {
+display: flex;
+flex-direction: row;
+border:  4px solid green;
+
+}
+
+.col-my-work-iframe {
+  flex-direction: column;
+  width:50%;
+}
+
+.my-iframe {
+
+  width:100%;
+  height: 600px;
+}
+
+.col-my-work-src-code {
+flex-direction: column;
+width: 50%;
+height: 600px;
+
+}
+
+pre {
+
+  overflow: auto;
+  height: 600px;
+  text-align: left;
+}
+
+
 
 
 /*keyframes*/

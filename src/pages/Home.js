@@ -1,6 +1,7 @@
 import "./home.css"
 import { TbBrandJavascript } from "react-icons/tb";
 import mainImg from "../images/main-photo.jpg"
+import Contact from "../components/Contact";
 /*icons*/
 import { FaGitSquare, FaReact, FaNpm } from "react-icons/fa";
 import { BsGithub, BsFiletypeHtml, BsFiletypeCss } from "react-icons/bs";
@@ -57,13 +58,16 @@ export const Home = () => {
         </div>
         <div className="col-my-work-src-code">
 
-          <SyntaxHighlighter className="my-first-poroject"  language="javascript" style={docco}>
+          <SyntaxHighlighter className="my-first-poroject" language="javascript" style={docco}>
+        
             {codeString}
           </SyntaxHighlighter>
 
         </div>
 
       </div>
+
+      <Contact></Contact>
 
     </div>
   )

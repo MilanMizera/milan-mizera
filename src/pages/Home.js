@@ -11,7 +11,8 @@ import SyntaxHighlighter from 'react-syntax-highlighter';
 import { docco } from 'react-syntax-highlighter/dist/esm/styles/hljs';
 /*high lighter my own file*/
 import { codeString } from "./data/ShowFirstProject";
-
+/**tlačítko na scroll to top */
+import ScrollToTop from "react-scroll-to-top";
 
 
 
@@ -68,6 +69,8 @@ export const Home = () => {
       </div>
 
       <Contact></Contact>
+
+      <ScrollToTop smooth />
 
     </div>
   )

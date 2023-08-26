@@ -1,6 +1,8 @@
 import "./header.css"
 import React, { useState } from "react";
+/**Scroll k sekcím při kliknutí na odkaz b hlavičce webu */
 import { Link } from "react-scroll"
+
 
 
 const Header = () => {

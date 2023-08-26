@@ -1,5 +1,6 @@
 import "./footer.css"
 
+
 export const Footer = () => {
 
 
@@ -8,8 +9,6 @@ export const Footer = () => {
     <div className="footer-section">
         
         <p className="footer-text">Milan Mizera &copy; {new Date().getFullYear()}. Všechna práva vyhrazena.</p>
-        
-        
         
         </div>
   )

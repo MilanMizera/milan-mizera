@@ -25,6 +25,7 @@
     text-align: center;
     background-color: antiquewhite;
     margin-bottom: 15px;
+    border: 1px solid rgb(155, 155, 155)
 }
 
 .form-textarea {
@@ -49,14 +50,16 @@
 
 input:focus {
 
-    border-color: #719ECE;
     box-shadow: 0 0 4px #2ba32b;
+    border: 1px solid rgb(155, 155, 155);
+    outline: none;
 }
 
 textarea:focus {
 
     border-color: #719ECE;
     box-shadow: 0 0 4px #2ba32b;
+    outline: none;
 }
 
 label {

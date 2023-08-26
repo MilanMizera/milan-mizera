@@ -19,7 +19,7 @@ export const Contact = () => {
     };
 
     return (
-        <div className='form-wrapper'>
+        <div className='form-wrapper' id="form-scroll">
             <form className='contact-form' ref={form} onSubmit={sendEmail}>
                 <label>Jméno</label>
                 <input className='form-input' type="text" name="from_name" placeholder='např.Karel' />

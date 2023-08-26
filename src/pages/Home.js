@@ -22,7 +22,7 @@ export const Home = () => {
 
     <div className="Home-wrapper">
 
-      <div className="welcome-section-row">
+      <div className="welcome-section-row" id="welcome-scoll">
         <div className="col-main-title">
           <h1>Dobrý den, jsem juniorní vývojař v JS</h1>
           <p>Programování se věnuji již dva roky</p>
@@ -36,7 +36,7 @@ export const Home = () => {
       </div>
 
 
-      <div className="with-i-work-icons-section">
+      <div className="with-i-work-icons-section"  id="with-i-work-scoll">
         <div className="col-with-i-work-text">
           <h2 className="with-i-work-text">S čím aktivně pracuji ?</h2>
         </div>
@@ -52,7 +52,7 @@ export const Home = () => {
         </div>
       </div>
 
-      <div className="my-work-section">
+      <div className="my-work-section" id="first-project-scroll">
         <div className="col-my-work-iframe">
           <iframe className="my-iframe" src="https://moje-ukoly.netlify.app/"></iframe>
         </div>

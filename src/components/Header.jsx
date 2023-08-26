@@ -1,5 +1,6 @@
 import "./header.css"
 import React, { useState } from "react";
+import { Link } from "react-scroll"
 
 
 const Header = () => {
@@ -20,36 +21,37 @@ const Header = () => {
   };
   return (
     <nav className="nav">
-      <a href="#" className="nav__brand">
+
+      <a className="nav__brand">
         &lt;Milan-Mizera/&gt;
       </a>
+
       <ul className={active}>
         <li className="nav__item">
-          <a href="#" className="nav__link">
-            Home
-          </a>
+          <Link to="welcome-scoll" spy={true} smooth={true} offset={50} duration={500} className="nav__link">
+            Úvod
+          </Link>
         </li>
+
         <li className="nav__item">
-          <a href="#" className="nav__link">
-            About
-          </a>
+          <Link to="with-i-work-scoll" spy={true} smooth={true} offset={50} duration={500} className="nav__link">
+            Dovednosti
+          </Link>
         </li>
+
         <li className="nav__item">
-          <a href="#" className="nav__link">
-            Portfolio
-          </a>
+          <Link to="first-project-scroll" spy={true} smooth={true} offset={50} duration={500} className="nav__link">
+            První projekt
+          </Link>
         </li>
+
         <li className="nav__item">
-          <a href="#" className="nav__link">
-            Skills
-          </a>
-        </li>
-        <li className="nav__item">
-          <a href="#" className="nav__link">
-            Contact
-          </a>
+          <Link to="form-scroll" spy={true} smooth={true} offset={50} duration={500} className="nav__link">
+            Kontakt
+          </Link>
         </li>
       </ul>
+
       <div onClick={navToggle} className={icon}>
         <div className="line1"></div>
         <div className="line2"></div>

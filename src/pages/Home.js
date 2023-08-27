@@ -25,7 +25,7 @@ export const Home = () => {
 
       <div className="welcome-section-row" id="welcome-scoll">
         <div className="col-main-title">
-          <h1>Dobrý den, jsem juniorní vývojař v JS</h1>
+          <h1 className="main-title">Dobrý den, jsem juniorní vývojař v JS</h1>
           <p>Programování se věnuji již dva roky</p>
           <div><DiCode className="js-icon" ></DiCode></div>
 
@@ -37,7 +37,7 @@ export const Home = () => {
       </div>
 
 
-      <div className="with-i-work-icons-section"  id="with-i-work-scoll">
+      <div className="with-i-work-icons-section" id="with-i-work-scoll">
         <div className="col-with-i-work-text">
           <h2 className="with-i-work-text">S čím aktivně pracuji ?</h2>
         </div>
@@ -47,7 +47,7 @@ export const Home = () => {
           <BsGithub className="icon-1"></BsGithub>
           <FaReact className="icon-1"></FaReact>
           <TbBrandJavascript className="icon-1"></TbBrandJavascript>
-          <BsFiletypeHtml className="icon-1"></BsFiletypeHtml>
+          <BsFiletypeHtml id="mobile-none-icon" className="icon-1"></BsFiletypeHtml>
           <BsFiletypeCss className="icon-1"></BsFiletypeCss>
           <FaNpm className="icon-1"></FaNpm>
         </div>
@@ -60,7 +60,7 @@ export const Home = () => {
         <div className="col-my-work-src-code">
 
           <SyntaxHighlighter className="my-first-poroject" language="javascript" style={docco}>
-        
+
             {codeString}
           </SyntaxHighlighter>
 

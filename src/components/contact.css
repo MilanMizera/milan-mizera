@@ -19,7 +19,7 @@
 
 .form-input {
 
-    width: 30%;
+    width: 700px;
     padding: 10px 0px;
     border-radius: 20px;
     text-align: center;
@@ -31,7 +31,7 @@
 .form-textarea {
 
 
-    width: 30%;
+    width: 700px;
     height: 200px;
     border-radius: 20px;
     text-align: center;
@@ -69,3 +69,60 @@ label {
 
 
 }
+
+textarea::placeholder {
+
+padding-top: 10px;
+
+
+}
+
+/* Media queries*/
+
+@media only screen and (max-width: 800px) {
+
+    .form-textarea {
+  
+      height: 120px;
+      width: 400px;
+    }
+
+    .form-input {
+
+        width: 350px;
+    }
+
+    .contact-form {
+
+        height: 500px;
+    }
+
+.form-wrapper {
+
+    height: 500px;
+}
+
+
+    }
+
+
+    
+        @media only screen and (max-width: 480px) {
+
+            .form-textarea {
+        
+              width: 90%;
+
+            }
+
+            .form-input {
+
+                width: 90%;
+            }
+
+            .form-btn {
+
+                width: 100px;
+            }
+    
+            }

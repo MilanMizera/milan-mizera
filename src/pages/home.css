@@ -30,6 +30,7 @@
   box-shadow: 0px -1px 130px -43px rgba(0, 0, 0, 0.75);
   animation: float 3s infinite;
 
+
 }
 
 .main-img {
@@ -193,7 +194,11 @@ pre {
   }
 
 
+  .main-img {
 
+    width: 250px;
+
+  }
 
 
 }
@@ -228,7 +233,7 @@ pre {
     flex: 0 1 30px;
     margin-right: 30px;
 
-  
+
   }
 
   .col-with-i-work-icons {
@@ -257,10 +262,26 @@ pre {
 
   }
 
+  .my-work-iframe {
+
+    height: 10px;
+
+  }
+
+  .my-iframe {
+
+    height: 400px;
+  }
+
+  .col-my-work-iframe {
+
+    height: 400px !important;
+  }
+
   pre,
   .col-my-work-src-code {
 
-    height: 300px;
+    height: 200px;
     width: 90%;
     margin: auto;
     margin-top: 20px;
@@ -302,11 +323,6 @@ pre {
 
   }
 
-  .main-img {
-
-    width: 80%;
-
-  }
 
   .col-main-img {
 
@@ -327,12 +343,7 @@ pre {
 
   }
 
-  
-
-  
-  }
 
 
-  
 
-     
+}

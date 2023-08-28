@@ -72,7 +72,7 @@ label {
 
 textarea::placeholder {
 
-padding-top: 10px;
+    padding-top: 10px;
 
 
 }
@@ -82,9 +82,9 @@ padding-top: 10px;
 @media only screen and (max-width: 800px) {
 
     .form-textarea {
-  
-      height: 120px;
-      width: 400px;
+
+        height: 120px;
+        width: 400px;
     }
 
     .form-input {
@@ -97,32 +97,32 @@ padding-top: 10px;
         height: 500px;
     }
 
-.form-wrapper {
+    .form-wrapper {
 
-    height: 500px;
-}
-
-
+        height: 500px;
     }
 
 
-    
-        @media only screen and (max-width: 480px) {
+}
 
-            .form-textarea {
-        
-              width: 90%;
 
-            }
 
-            .form-input {
+@media only screen and (max-width: 480px) {
 
-                width: 90%;
-            }
+    .form-textarea {
 
-            .form-btn {
+        width: 90%;
 
-                width: 100px;
-            }
-    
-            }
+    }
+
+    .form-input {
+
+        width: 90%;
+    }
+
+    .form-btn {
+
+        width: 100px;
+    }
+
+}

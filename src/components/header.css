@@ -32,7 +32,7 @@ a {
   display: flex;
   align-items: center;
   justify-content: space-around;
-  height: 8vh;
+  height: 10vh;
   background: rgb(0, 33, 65);
 }
 
@@ -105,15 +105,28 @@ a {
 
   .nav__menu {
     position: fixed;
+    justify-content: center;
+    z-index: 2;
     top: 7vh;
     right: 0;
     height: 93vh;
-    width: 50vw;
+    width: 35vw;
     background: rgb(0, 33, 65);
     flex-direction: column;
     transform: translateX(100%);
     transition: 0.5s ease-in;
   }
+
+  .nav {
+
+    position: fixed;
+    width: 100%;
+    z-index: 4;
+
+  }
+
+
+
 }
 
 /* Active Class */

@@ -107,14 +107,18 @@ a {
     position: fixed;
     justify-content: center;
     z-index: 2;
-    top: 7vh;
+    top: 10vh;
     right: 0;
     height: 93vh;
-    width: 35vw;
+    width: 200px;
     background: rgb(0, 33, 65);
     flex-direction: column;
     transform: translateX(100%);
     transition: 0.5s ease-in;
+    border-right: 1px solid rgb(0, 0, 0);
+    border-left: 1px solid green;
+    ;
+
   }
 
   .nav {
@@ -124,8 +128,6 @@ a {
     z-index: 4;
 
   }
-
-
 
 }
 

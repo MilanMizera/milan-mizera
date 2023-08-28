@@ -304,6 +304,16 @@ pre {
   }
 }
 
+@media screen and (max-width: 768px) {
+
+  .main-img {
+
+    padding-top: 50px;
+
+
+  }
+}
+
 
 @media only screen and (max-width: 721px) {
 
@@ -343,6 +353,10 @@ pre {
 
   }
 
+  .main-img {
+
+    width: 200px;
+  }
 
 
 
